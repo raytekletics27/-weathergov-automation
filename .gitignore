@@ -1,0 +1,15 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Python
+__pycache__/
+*.py[cod]
+.env
+.venv/
+venv/
+
+# GitHub Actions caches, etc.
+.cache/
