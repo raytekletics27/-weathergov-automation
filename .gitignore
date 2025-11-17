@@ -4,12 +4,23 @@
 *.tfstate.*
 crash.log
 
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
+
 # Python
 __pycache__/
 *.py[cod]
+*.egg-info/
 .env
 .venv/
 venv/
+pip-wheel-metadata/
+
+# Tests / coverage
+htmlcov/
+.coverage
 
 # GitHub Actions caches, etc.
 .cache/
